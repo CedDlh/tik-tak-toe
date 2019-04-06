@@ -26,12 +26,12 @@ class Square extends React.Component {
           <div className="status">{status}</div>
           <div className="board-row">
             {this.renderSquare(323)}
-            {this.renderSquare(5)}
+            {this.renderSquare(215)}
             {this.renderSquare(19)}
           </div>
           <div className="board-row">
             {this.renderSquare(0)}
-            {this.renderSquare(-1)}
+            {this.renderSquare(111)}
             {this.renderSquare(8)}
           </div>
           <div className="board-row">
@@ -52,7 +52,7 @@ class Square extends React.Component {
             <Board />
           </div>
           <div className="game-info">
-            <div>{/* status */}</div>
+            <div>{/* STATUS */}</div>
             <ol>{/* TODO */}</ol>
           </div>
         </div>
